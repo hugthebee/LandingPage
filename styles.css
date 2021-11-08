@@ -1,0 +1,39 @@
+body{
+    font-family:Helvetica, sans-serif;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+.header p{
+    font-size:24px;
+    font-weight:bold;
+    color:#f9faf8;
+    margin:0;
+    padding:0;
+}
+
+ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    display:flex;
+    gap:15px;
+}
+
+a{
+    text-decoration:none;
+    color:#e5e7eb;
+    font-size:18px;
+}
+
+.header{
+    display:flex;
+    justify-content:space-between;
+    padding: 15px 100px 500px 100px;
+    background-color:#1F2937;
+}
+
